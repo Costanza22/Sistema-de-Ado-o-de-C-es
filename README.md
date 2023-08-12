@@ -1,6 +1,5 @@
-# Sistema-de-Adocao-de-Caes
 
-Claro! Aqui está um exemplo de um README básico para um sistema de cadastro de adoção de cães usando JavaScript, HTML, CSS, Java e SQL:
+
 
 # Sistema de Cadastro de Adoção de Cães
 
