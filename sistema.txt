@@ -1,0 +1,32 @@
+# Sistema de Cadastro de Cães de um Canil
+
+Este é um sistema simples de cadastro de cães de um canil, desenvolvido em Java. Ele permite o cadastro de cães de raças diferentes, associando a cada um deles um nome, uma coleira, uma ração e informações sobre vacinas contra pulgas, vermes e carrapatos. O sistema também permite o cadastro de diferentes tipos de rações disponíveis.
+
+## Funcionalidades
+
+- Cadastro de cães: Você pode cadastrar um novo cão informando seu nome, raça, coleira, ração e status de vacinas.
+- Cadastro de rações: Você pode cadastrar diferentes tipos de rações disponíveis, informando uma descrição para cada uma delas.
+- Exibição dos cães cadastrados: É possível visualizar todos os cães cadastrados no canil, juntamente com suas informações.
+- Exibição das rações cadastradas: É possível visualizar todas as rações cadastradas no sistema, juntamente com suas descrições.
+
+
+## Pré-requisitos
+
+- Java Development Kit (JDK) instalado.
+- IDE Java, como o VS Code ou o Eclipse.
+
+## Executando o sistema
+
+1. Clone este repositório em seu ambiente de desenvolvimento.
+2. Abra o projeto em sua IDE Java de preferência.
+3. Execute o arquivo `CadastroCaesCanil.java` para iniciar o sistema.
+4. Siga as instruções no console para interagir com o sistema.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você tiver sugestões de melhorias, correções de bugs ou novas funcionalidades, sinta-se à vontade para abrir uma solicitação de pull.
+
+## Licença
+
+Este projeto está licenciado sob a licença [MIT](https://opensource.org/licenses/MIT).
+

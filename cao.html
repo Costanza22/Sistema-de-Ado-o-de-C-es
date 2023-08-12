@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<div class="imagem-fundo">
+  
+</div>
+
+<head>
+   
+  
+    <link rel="stylesheet" href="styles.css">
+  
+  </head>
+
+<html>
+<head>
+  <title>Sistema de Cadastro de Adoção</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+  <h1>Sistema de Cadastro de Adoção de Cães</h1>
+
+  <form id="cadastro-form">
+    <h2>Dados do Cão</h2>
+
+    <label for="cao-nome">Nome do Cão:</label>
+    <input type="text" id="cao-nome" name="cao-nome" required>
+
+    <label for="cao-raca">Raça do Cão:</label>
+    <input type="text" id="cao-raca" name="cao-raca" required>
+
+    <label for="cao-coleira">Número da Coleira:</label>
+    <input type="text" id="cao-coleira" name="cao-coleira" required>
+
+    <label for="cao-racao">Ração do Cão:</label>
+    <select id="cao-racao" name="cao-racao" required>
+      <option value="">Selecione...</option>
+      <option value="Ração A">Ração A</option>
+      <option value="Ração B">Ração B</option>
+      <option value="Ração C">Ração C</option>
+    </select>
+
+    <h2>Dados do Adotante</h2>
+
+    <label for="adotante-nome">Nome do Adotante:</label>
+    <input type="text" id="adotante-nome" name="adotante-nome" required>
+
+    <label for="adotante-email">E-mail do Adotante:</label>
+    <input type="email" id="adotante-email" name="adotante-email" required>
+
+    <label for="adotante-telefone">Telefone do Adotante:</label>
+    <input type="tel" id="adotante-telefone" name="adotante-telefone" required>
+
+    <label for="adotante-endereco">Endereço do Adotante:</label>
+    <input type="text" id="adotante-endereco" name="adotante-endereco" required>
+
+    <h2>Data da Adoção</h2>
+
+    <label for="data-adocao">Data da Adoção:</label>
+    <input type="date" id="data-adocao" name="data-adocao" required>
+
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <script>
+   
+    document.getElementById('cadastro-form').addEventListener('submit'), function(event) {
+      event.preventDefault();
+      
+      
+      var caoNome = document.getElementById('cao-nome').value;
+      var caoRaca = document.getElementById('cao-raca').value;
+      var caoColeira = document.getElementById('cao-coleira').value;
+      var caoRacao = document.getElementById('cao-racao').value;
+      var adotanteNome = document.getElementById('adotante-nome').value;
+      var adotanteEmail = document.getElementById('adotante-email').value;
+      var adotanteTelefone = document.getElementById('adotante-telefone').value;
+      var adotanteEndereco = document.getElementById('adotante-endereco').value;
+    }
+    
